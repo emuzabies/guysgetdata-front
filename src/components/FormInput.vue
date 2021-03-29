@@ -62,7 +62,7 @@ export default {
     },
     methods:{
         handleSubmitForm(){
-          let apiURL = 'https://guys.azurewebsites.net/api/userinfo';
+          let apiURL = 'https://guysdata.azurewebsites.net/api/userinfo';
 
           axios.post(apiURL, this.user).then(() => {
             this.$router.push('/');
